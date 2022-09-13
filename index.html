@@ -17,92 +17,269 @@
 <!-- swiper css -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
+<!-- home css-->
+<link rel="stylesheet" href="assets/css/home.css">
+
 <title>Finsathi</title>
 </head>
 <body>
     
-<!-- header-->
 
-<!-- <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg bg-dar ">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt=""></a>
-          <a href="#" class="services">Expert Services</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Supoort</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Become Partner</a>
-              </li>
+
+<header>
+    <div class="container">
+     <nav class="navbar navbar-expand-lg ">
+         <div class="container">
+           <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+          <ul class="mainmenu"> 
+             <li><a href="#" class="services" >Expert Services</a>
+                 
+             </li> 
+         </ul> 
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Resources</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Supoort</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Become Partner</a>
+               </li>
              </ul>
-            <form action="">
-                        <a href="#"> Login</a>
+             <form class="d-flex">
+                 <a data-bs-toggle="modal" data-bs-target="#loginModal" href="#" >Login</a>
+             </form>
+           </div>
+         </div>
+       </nav>
+ 
+       <div class="subnav-custom">
+         
+             <div class="customize_solution">
+                 <ul class="tabs nav nav-justified">
+                     <li class="tab-link current nav-pill" href="tab-1">
+                         <span class="ease-effect">  <span><img src="assets/img/building.svg" alt=""></span> Business Setup & Registration </li>
+                     <li class="tab-link nav-pill" href="tab-2">
+                         <span class="ease-effect"> <span><img src="assets/img/message.svg" alt=""></span> Accounting, Tax Filling & Complience</span> </li>
+                     <li class="tab-link nav-pill" href="tab-3">
+                         <span class="ease-effect"><span><img src="assets/img/home.svg" alt=""></span> Business Changes Services</span>
+                     </li>
+                     <li class="tab-link nav-pill" href="tab-4">
+                         <span class="ease-effect"><span><img src="assets/img/user.svg" alt=""></span> DSC & Other Services</span>
+                     </li>
+                 </ul>
+                 <div class="tab-content current" id="tab-1">
+                     <ul class="subemnu">
+                         <li> <span><img src="assets/img/file.svg" alt=""></span> <a href="#">Business Registration</a>
+                             <ul class="lastmenu">
+                                
+                                 <li><a href="#"> Private Limited Company</a></li>
+                                 <li><a href="#"> One Person Company</a></li>
+                                 <li><a href="#">Limited Liability Partnership</a></li>
+                                 <li><a href="#"> Partnership Firm</a></li>
+ 
+                                 <li class="headerhr"></li>
+                                 <li class="litle-list-header"> <span><img src="assets/img/file.svg" alt=""></span>Business Registration</li>
+ 
+                                 <li><a href="#"> Private Limited Company</a></li>
+                                 <li><a href="#"> One Person Company</a></li>
+                                 <li><a href="#">Limited Liability Partnership</a></li>
+                                 <li><a href="#"> Partnership Firm</a></li>
+                             </ul>
+                         
+                             
+                             
+                         </li>
+                         <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#"> NGO/Trust/Society Registration</a>
+                             <ul class="lastmenu">
+                                 <li><a href="#"> NGO(Basic Information)</a></li>
+                                 <li><a href="#"> Trust Registration</a></li>
+                                 <li><a href="#"> Trust Registration</a></li>
+                                 <li><a href="#"> Section 8 Company</a></li>
+                                 <li><a href="#"> Sec 80G and 12A</a></li>
+                                 <li><a href="#"> Darpan Registration</a></li>
+                                 <li><a href="#"> CSR-1 Filing</a></li>
+                                 <li><a href="#"> Trust Compliance </a></li>
+                             
+                             </ul>
+                         </li>
+                         <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">Licenses & Registrations</a>
+                             <ul class="lastmenu">
+                                 <li><a href="#"> GST Registration</a></li>
+                                 <li><a href="#"> MSME Registration</a></li>
+                                 <li><a href="#">IEC (Import/Export Code)</a></li>
+                                 <li><a href="#"> Shop & Instablishments Registration</a></li>
+                                 <li><a href="#">Professional tax Registration </a></li>
+                                 <li><a href="#"> EPFO and ESI Registration</a></li>
+                                 <li><a href="#">LUT Under GST </a></li>
+                                 <li><a href="#">Apply for new PAN & PAN Correction </a></li>
+                                 <li><a href="#"> Apply for TAN</a></li>
+                                 
+                             </ul>
+                         </li>
+                         
+                     </ul>
+                 </div>
+                 <div class="tab-content" id="tab-2">
+                    <ul class="subemnu">
+                        <li> <span><img src="assets/img/file.svg" alt=""></span> <a href="#">Accounting</a>
+                            <ul class="lastmenu">  
+                                <li><a href="#"> Accounting & Bookkeepingservice</a></li>
+                            </ul>
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#"> Tax Filing Services </a>
+                            <ul class="lastmenu">
+                                <li><a href="#">Income Tax Return Filing</a></li>
+                                <li><a href="#">GST Return Filing</a></li>
+                                <li><a href="#">TDS Return Filing</a></li>
+                                <li><a href="#">PF-ESI Return Filing</a></li>
+                            </ul>
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">Mandatory Annual Compliances</a>
+                            <ul class="lastmenu">
+                                <li><a href="#"> Annual Compliance for Companies</a></li>
+                                <li><a href="#"> Annual Filing for LLP</a></li>
+                                <li><a href="#">Director KYC</a></li>
+                                <li><a href="#"> Due Diligence - Compliance Check</a></li>
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+
+                 </div>
+                 <div class="tab-content" id="tab-3">
+                 
+                    <ul class="subemnu">
+                        <li> <span><img src="assets/img/file.svg" alt=""></span> <a href="#">Changes in Company</a>
+                            <ul class="lastmenu">  
+                                <li><a href="#"> Add Director</a></li>
+                                <li><a href="#"> Remove Director</a></li>
+                                <li><a href="#"> Increase Authorized Capital</a></li>
+                                <li><a href="#"> Change Objective/Activity</a></li>
+                                <li><a href="#"> Change Registered office Address</a></li>
+                                <li><a href="#"> Change Company Name</a></li>
+                                <li><a href="#"> Close the Company</a></li>
+                            </ul>
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">Changes in LLP</a>
+                            <ul class="lastmenu">
+                                <li><a href="#">Add Designated Partner</a></li>
+                                <li><a href="#">Remove Designated Partner</a></li>
+                                <li><a href="#">Changes to LLP Agreement</a></li>
+                                <li><a href="#">Close the LLP</a></li>
+                            </ul>
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">Covert your Business</a>
+                            <ul class="lastmenu">
+                                <li><a href="#"> Partnership to LLP</a></li>
+                                <li><a href="#"> Proprietorship to Pvt Ltd Company</a></li>
+                                <li><a href="#">Proprietorship to OPC</a></li>
+                                <li><a href="#"> Partnership/LLP to Pvt Ltd Company</a></li>
+                                <li><a href="#"> Private to Public Limited Company</a></li>
+                                <li><a href="#"> OPC to Private Limited Company</a></li>
+                                <li><a href="#"> Private Limited Company to OPC</a></li>
+                                <li><a href="#"> Other type of Conversion</a></li>
+                                
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+
+                 </div>
+                 <div class="tab-content" id="tab-4">
+                 
+                    <ul class="subemnu">
+                        <li> <span><img src="assets/img/file.svg" alt=""></span> <a href="#">Digital Signature Certificate
+                            (DSC)</a>
+                            <ul class="lastmenu">
+                               
+                                <li><a href="#"> Buy Paperless DSC</a></li>
+                                <li><a href="#"> Buy DSC Token</a></li>
+                                <li><a href="#">Video Verification</a></li>
+
+
+                                <li class="headerhr"></li>
+                                <li class="litle-list-header"> <span><img src="assets/img/file.svg" alt=""></span>Become DSC Agent</li>
+
+                                <li><a href="#">  Become DSC Agent</a></li>
+                            </ul>
+                        
+                            
+                            
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">   Digital Signature Certificate 
+                            (DSC)</a>
+                            <ul class="lastmenu">
+                                <li><a href="#"> Buy Digital Signature Certificate</a></li>    
+                            </ul>
+                        </li>
+                        <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#"> Other Services</a>
+                            <ul class="lastmenu">
+                                <li><a href="#"> Legal Document Drafting</a></li>
+                                <li><a href="#"> Expert Consultation</a></li>
+                            </ul>
+                        </li>
+                    
+                        
+                    </ul>
+
+                 </div>
+                 </div>
+             </div>
+        
+       </div>
+    </div>
+ </header> 
+
+
+
+ <!--popup -->
+ 
+ <div class="modal fade custom-modal" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"><img src="assets/img/logo-modal.svg" alt=""></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body signup-modal">
+            <h4>Login To Finsathi</h4>
+            <p class="wl-txt">Welcome back!
+                </p>
+            <p class="wl-txt">Login to your account</p>
+            <div class="login-with-google">
+                <img src="assets/img/google.svg" alt="">
+                <span>Login With Google </span>
+            </div>
+            <div class="or-section">
+                <span></span>
+                <p>Or</p>
+                <span></span>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label>Login with Email or Mobile*</label>
+                    <input type="text" class="form-control" name="" />
+                </div>
+
+             
+                <div class="form-group">
+                    <button type="submit" class="btn btn-create" data-bs-target="#loginModal" >Login</button>
+                </div>
+               
             </form>
         </div>
-        </div>
-      </nav>
-</header> -->
-
-<!-- <header>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
-         <ul class="mainmenu"> 
-            <li><a href="#" class="services" >Expert Services</a>
-               <div class="menu">
-                <ul class="childmenu">
-                    <li> <a href="#"> <span><img src="assets/img/building.svg" alt=""></span> Business Setup & Registration</a>
-                        <ul class="subemnu">
-                            <li> <span><img src="assets/img/file.svg" alt=""></span> <a href="#">Business Registration</a>
-                                <ul class="lastmenu">
-                                    <li><a href="#"> Private Limited Company</a></li>
-                                    <li><a href="#"> One Person Company</a></li>
-                                    <li><a href="#">Limited Liability Partnership</a></li>
-                                    <li><a href="#"> Partnership Firm</a></li>
-                                </ul>
-                            </li>
-                            <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#"> NGO/Trust/Society Registration</a></li>
-                            <li><span><img src="assets/img/file.svg" alt=""></span> <a href="#">Licenses & Registrations</a></li>
-                        </ul>
-                    </li>
-                    <li> <a href="#"> <span><img src="assets/img/message.svg" alt=""></span> Accounting, Tax Filling & Complience</a></li>
-                    <li> <a href="#"> <span><img src="assets/img/home.svg" alt=""></span> Business Changes Services</a></li>
-                    <li> <a href="#"> <span><img src="assets/img/user.svg" alt=""></span> DSC & Other Services</a></li>
-                </ul>
-               </div>
-            </li> 
-        </ul> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Resources</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Supoort</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Become Partner</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-                <a href="#">Login</a>
-            </form>
-          </div>
-        </div>
-      </nav>
-</header> -->
-
+      
+      </div>
+    </div>
+  </div>
 
 
 <!-- home banner-->
@@ -467,21 +644,12 @@
     </div>
 </section>
 
-<section class="collection Category outcategory">
-    <div class="container">
-      
-  
-      
-    </div>
-  </section>
+
 <!-- tabs -->
 <section class="hometab">
     <div class="content">
         <h3> Our Services At a Glance</h3>
-       
     </div>
-
-
     <div class="ourstab">
         <div class="topcontent">
             <ul class="nav nav-tabs collectiontab" id="myTab" role="tablist">
@@ -498,9 +666,12 @@
                 <a class="nav-link" id="Accounting-tab" data-bs-toggle="tab" data-bs-target="#Accounting" type="button" role="tab" aria-controls="Accounting" aria-selected="false">Accounting & Annual Compliances</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="Convert-tab" data-bs-toggle="tab" data-bs-target="#Convert" type="button" role="tab" aria-controls="Convert" aria-selected="false">Convert Your Business</a>
+                <a class="nav-link" id="Convert-tab" data-bs-toggle="presentation" data-bs-target="#Convert" type="button" role="presentation" aria-controls="Convert" aria-selected="false">Convert Your Business</a>
               </li>
             
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="Accounting-tab" data-bs-toggle="tab" data-bs-target="#Accounting" type="button" role="tab" aria-controls="Accounting" aria-selected="false">Accounting & Annual Compliances</a>
+              </li>
             </ul>
           </div>
     </div>
@@ -665,8 +836,6 @@
             </div>
               
         </div>
-
-     
         <div class="tab-pane fade" id="Licences" role="tabpanel" aria-labelledby="Licences-tab">
             <div class="container">
                 <div class="row">
@@ -1129,9 +1298,6 @@
             <h3> Tax Calculators</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu, vivamus</p>
         </div>
-     
-
-
         <div class="row justify-content-between">
             <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                 <div class="tags">
@@ -1270,7 +1436,7 @@
 <!-- people about-->
 <section class="peopleabout">
 
-    <div class="container">
+    <div class="container" style="position: relative;">
 
         <div class="mainconent">
             <h4>What people say about us</h4>
@@ -1299,11 +1465,14 @@
                 </div>
           </div>
                 </div>
-                <div class="swiper-button-next"> <img src="assets/img/rightarrowslider.svg" alt=""></div>
-                <div class="swiper-button-prev"><img src="assets/img/leftarrowslide.svg" alt=""> </div>
+               
               </div>
         </div>
+        
+    <div class="swiper-button-next"> <img src="assets/img/rightarrowslider.svg" alt=""></div>
+    <div class="swiper-button-prev"><img src="assets/img/leftarrowslide.svg" alt=""> </div>
     </div>
+
 
 </section>
 <!-- contact page -->
@@ -1409,9 +1578,6 @@
    
     </div>
 </section>
-
-
-
 
 <section class="foter">
     <footer>
@@ -1543,6 +1709,8 @@
      <!-- bootsrap 5 js -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
      <!--custm js-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
      <script src="assets/js/custom.js"></script>
+ 
 </body>
 </html>
