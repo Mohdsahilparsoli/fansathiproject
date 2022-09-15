@@ -1328,6 +1328,7 @@ section.postion {
 /*  tab section */
 .formstab {
     margin-top: -60px;
+    padding-bottom: 120px;
 }
 
 .formstab .tabs {
@@ -1353,11 +1354,14 @@ section.postion {
 }
 
 .formstab .tabdeshing {
-    background-color: #FFFFFF;
+
     background: #FFFFFF;
     box-shadow: 0px 5px 36px rgba(0, 0, 0, 0.12);
-    padding-top: 16px;
-
+    max-width: 1118px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px 8px 16px;
 }
 
 .tabconetent {
@@ -1371,6 +1375,7 @@ section.postion {
 .tabmenu {
     display: flex;
     width: 100%;
+    justify-content: flex-end;
 }
 
 .tabconetent .tabconets {
@@ -2149,10 +2154,10 @@ section.profit.aboutweb{
 }
 
 /*  index conatc form */
-section.contactform.serviceform {
+/* section.contactform.serviceform {
  
     padding-bottom: 88px !important;
-}
+} */
 section.contactform.indexconatcform {
     padding-bottom: 0px;
 }
@@ -2214,7 +2219,7 @@ section.contactform.indexconatcform {
 
 .hometab .topcontent ul {
     justify-content: center;
-    border-bottom: 0px;
+
 }
 
 .hometab .tab-content .prices {
@@ -2784,4 +2789,169 @@ padding-bottom: 120px;
     line-height: 24px;
     color: #2563EB;
 
+}
+
+
+/* service page itr */
+
+.tablinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.tablinks a img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tablinks a{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #353535;
+
+}
+.conentimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.contactform.serviceform {
+padding-bottom: 93px;
+}
+
+
+/* gst page */
+section.formstab.gstpage .tabdeshing {
+    max-width: 668px;
+    width: 100%;
+}
+section.formstab.dscpage .tabdeshing {
+max-width: 860px;
+width: 100%;
+}
+
+section.formstab.dscpage .tabconetent{
+    padding-top: 56px;
+}
+section.formstab.dscpage .content h3{
+    padding-bottom: 68px;
+}
+
+section.formstab.dscpage h6 {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #353535;
+padding-bottom: 16px;
+
+}
+section.formstab.dscpage label ,
+section.formstab.dscpage select{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* popup main */
+    
+    color: #252525;
+    
+}
+section.formstab.dscpage .one{
+    display: flex;
+}
+section.formstab.dscpage .one .form-check {
+    margin-right: 12px;
+}
+section.formstab.dscpage select{
+    height: 36px;
+}
+
+section.formstab.dscpage .form-check {
+    margin-bottom: 16px;
+}
+section.formstab.dscpage .form-check:last-child{
+    margin-bottom: 0px;
+}
+section.formstab.dscpage .selction {
+    margin-bottom: 45px;
+}
+
+
+/* plan page */
+
+.plan{
+    padding: 68px 0px;
+}
+
+.plan  .price {
+  background-color:#EBF1FF;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 30px;
+  height: 308px;
+}
+.plan  .price .pricebody h6{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #C18315;
+    padding: 16px 0px;
+
+}
+
+.plan  .price .pricebody  p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+    padding-bottom: 16px 8px;
+    
+}
+.plan  .price .pricebody span {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 23px;
+    color: #19BB33;
+    margin-top: 16px;
+    display: inline-block;
+
+}
+.plan  .price .pricebody span sup {
+    font-size: 21.1259px;
+    line-height: 11px;
+}
+.privedetails{
+    padding-top: 34px;
+}
+.privedetails h6 {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 14px; 
+    text-align: left;
+    color: #000000;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background: #FDECCF;
+
+
+}
+ul.pricelist li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 16px;
+   
+
+}
+ul.pricelist li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #3D3A3A;
+    padding-left: 8px;
 }
