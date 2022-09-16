@@ -1202,7 +1202,7 @@ section.postion {
 .required {
     padding: 70px 0px;
     background-color: #EBF1FF;
-    margin-bottom: 120px;
+
 }
 
 
@@ -2432,6 +2432,8 @@ section.contactform.indexconatcform {
     padding: 48px;
     border-radius: 4px;
 }
+.servicebook textarea,
+.servicebook select,
 .servicebook input {
     height: 48px;
     margin-bottom: 24px;
@@ -2443,6 +2445,25 @@ section.contactform.indexconatcform {
     padding-left: 16px;
 
 }
+
+.servicebook select{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 9px;
+}
+.servicebook textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    height: 96px;
+    margin-bottom: 9px;
+}
+
+
 .servicebook input:focus{
     box-shadow: none;
 } 
@@ -2884,7 +2905,8 @@ section.formstab.dscpage .selction {
 /* plan page */
 
 .plan{
-    padding: 68px 0px;
+    padding-top: 68px;
+    padding-bottom: 80px;
 }
 
 .plan  .price {
@@ -2928,17 +2950,17 @@ section.formstab.dscpage .selction {
 .privedetails{
     padding-top: 34px;
 }
-.privedetails h6 {
-    margin-bottom: 24px;
+.privedetails .heading h6 {
     font-weight: 500;
-    font-size: 14px; 
-    text-align: left;
+    font-size: 14px;
+    line-height: 21px;  
     color: #000000;
-    padding: 10px 0px;
+}
+.privedetails .heading{
+    padding: 10px;
     border-radius: 10px;
     background: #FDECCF;
-
-
+    margin-bottom: 24px;
 }
 ul.pricelist li {
     display: flex;
@@ -2954,4 +2976,207 @@ ul.pricelist li p{
     line-height: 21px;
     color: #3D3A3A;
     padding-left: 8px;
+}
+
+.plan .col-12{
+    position: relative;
+    padding-bottom:41px ;
+}
+.plan .col-12 a{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50% );
+    background: #2563EB;
+    width: 156px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 41px;
+    color: #FFFFFF;
+
+
+
+}
+
+
+/* servicepagebanner */
+
+section.gstslider.servicepagebanner {
+    padding: 138px 0px;
+}
+section.gstslider.servicepagebanner .sliderconent  h5 {
+    
+    color: #353535 ;
+    
+    
+}
+section.gstslider.servicepagebanner p{
+    padding-top: 16px;
+}
+section.gstslider.servicepagebanner .sliderconent{
+    padding-top: 68px;
+    padding-left: 62px;
+
+}
+
+.token {
+    padding-top: 109px;
+    padding-bottom: 120px;
+}
+.token .content h3 {
+    padding-bottom: 137px;
+    
+}
+
+
+/* token servives page */
+
+.token .selectone {
+    text-align: left;
+}
+.token .selectone h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252525;
+    padding-bottom: 16px;
+}
+.radionbuuton{ 
+    padding-left:33px ;
+    padding-bottom: 16px;
+}
+.radionbuuton label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+    padding-left: 12px;
+}
+.selectone .radionbuuton:last-child{
+    background-color: red;
+}
+
+.selectone .cutessies{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 55px;
+    margin-top: 17px;
+}
+.selectone .cutessies h5 {
+    padding-bottom: 0px;
+}
+
+.selectone .cutessies .inpudata{
+    width: 147px;
+    border-radius: 10px;
+    border: 1px solid #5E666A;
+    text-align: center;
+    line-height: 59px;
+    margin-left: 47px;
+
+}
+.selectone .cutessies input {
+    width: 80px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #2196F3;
+    font-weight: 500;
+}
+.selectone .cutessies a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.formdatasumbit{
+    background-color: #EBF1FF;
+    padding: 48px;
+}
+.formdatasumbit input,
+.formdatasumbit textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 48px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #797171;
+
+}
+
+.formdatasumbit textarea{
+    height: 95px;
+    padding: 16px;
+}
+.formdatasumbit .inputdata{
+    display: flex;
+}
+.formdatasumbit .inputdata span a:hover{
+    color: #797171;
+
+}
+section.contactform.serviceform.mainform{
+    padding-bottom: 10px;
+}
+
+
+/* video verifcation */
+
+section.gstslider.servicepagebanner.video .sliderconent{
+    max-width: 100%;
+
+}
+
+.video .content {
+    max-width: 100%;
+    padding-top: 43px;
+}
+.video .content h3 {
+    padding-bottom: 83px;
+}
+section.video.formstab.dscpage {
+    margin-top: auto;
+}
+section.video.formstab.dscpage .tabdeshing{
+    max-width: 1133px;
+    padding: 16px 42px 42px 42px;
+}
+section.video.formstab.dscpage .tablinks a{
+    font-weight: 500;
+    font-size: 21.0866px;
+    line-height: 32px;
+    color: #353535;
+}
+section.becomepartentform.agent{
+    padding-bottom: 120px;
+}
+
+section.servicestabs.serviceloading  .landing {
+    max-width: 762px;
+}
+section.stepasprocess.ladingservice {
+padding-top: 0px;
+}
+section.mainconatact.serviceconatc.legalservipage{
+    padding-top: 120px;
+}
+
+section.service.experetcusalt  .content h3{
+    max-width: 100%;
+}
+section.Overview.expertcusalt .overviewcoent,
+section.service.experetcusalt .content{
+    padding-top: 90px;
 }
