@@ -26,14 +26,14 @@ removeClass = true;
 });
 
 
+ 
+$(document).ready(function(){
+  $(".sectiontab").click(function(){
+    $(".sectiontab").removeClass("active1");
+    $(this).addClass("active1")
 
-
-
-
-
-
-
-
+  });
+});
 
 /* swiper js */
 
@@ -42,12 +42,38 @@ var swiper = new Swiper(".swiperabout", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    slidesPerView:3,
     loop:true,
-    // autoplay:{
-    //     delay:500
-    // }
+    autoplay:{
+        delay:3000
+    },
+
+    breakpoints:{
+      991:{
+        slidesPerView:3
+      },
+      
+      767:{
+        slidesPerView:2
+      },
+      100:{
+        slidesPerView:1
+      }
+    }
   });
+
+
+  var swiper = new Swiper(".servieslider", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView:1,
+    loop:true,
+    autoplay:{
+        delay:3000
+    }
+  });
+
 
   var swiper = new Swiper(".mySwiper", {
     navigation: {
@@ -56,6 +82,18 @@ var swiper = new Swiper(".swiperabout", {
     },
     loop:true
   });
+
+
+
+
+
+  
+/* section tab js  */
+
+
+   
+
+
 
 
 

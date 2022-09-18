@@ -198,6 +198,12 @@ ul.childmenu>li>a {
     margin-right: 16px;
 
 }
+.active1{
+    border-bottom: 3px solid #2563EB;;
+}
+.peopleabout .container{
+    position: relative;
+}
 .headerhr{
     width: 100%;
     width: 100%;
@@ -687,6 +693,7 @@ nav a.services {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 /* conatc us */
@@ -766,7 +773,7 @@ select.form-select {
     outline: none;
     border: 1px solid #C4C4C4;
     border-radius: 8px;
-    padding-left: 15px;
+    padding: 15px;
 }
 
 .becomepartentform .form-floating textarea:focus {
@@ -905,6 +912,7 @@ section.contactform {
     border: none;
     outline: none;
     padding: 15px;
+    border-radius: 4px;
 }
 
 .contactform form textarea:focus {
@@ -1048,6 +1056,10 @@ section.postion {
     color: #414145;
 }
 
+.postion .accordion-item {
+    margin-bottom: 24px;
+    border: 1px solid #EDEEEF;
+}
 
 .accordiens .maindata h4 {
     font-weight: 500;
@@ -1150,20 +1162,14 @@ section.postion {
 
 /* upload */
 
-.upload-btn-wrapper {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.upload-btn-wrapper {
-
-    width: 100%;
+.upload-btn-wrappers {
     text-align: center;
-    padding: 24px 0px;
+    margin-bottom: 34px;
+    margin-top: 9px;
 }
 
-.btn {
+
+.uploadbtn {
     background-color: white;
     padding: 8px 20px;
     border-radius: 8px;
@@ -1173,15 +1179,16 @@ section.postion {
     color: #414145;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
     border-radius: 4px;
+    cursor: pointer;
 
 }
 
-.upload-btn-wrapper input[type=file] {
+.upload-btn-wrappers input[type=file] {
 
     position: absolute;
-    left: 50%;
-    top: 0;
+  
     opacity: 0;
+    cursor: pointer;
 
 }
 
@@ -1214,6 +1221,7 @@ section.postion {
 }
 
 .content {
+    padding-top: 40px;
     max-width: 907px;
     margin: 0 auto;
     text-align: center;
@@ -1375,11 +1383,10 @@ section.postion {
 .tabmenu {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
 }
 
 .tabconetent .tabconets {
-    max-width: 250px;
+    max-width: 256px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1387,10 +1394,11 @@ section.postion {
     flex-direction: column;
     padding: 26px 0px;
 
-    border: 0.5px solid #C4C4C4;
+    border-right: 0.5px solid #C4C4C4;
+    border-bottom:0.5px solid #C4C4C4 ;
+    border-top:0.5px solid #C4C4C4 ;
 
 }
-
 .conentimg {
     max-width: 250px;
     padding-top: 34px;
@@ -1566,22 +1574,12 @@ section.contactform.servi {
     padding-bottom: 0px;
 }
 
-.serviceform .treamcondsions a {
-
-    margin-left: 745px;
-}
 
 .swiperabout {
     max-width: 895px;
     width: 100%;
     margin: 0 auto;
 }
-
-
-
-
-
-
 
 
 header .container{
@@ -2168,6 +2166,7 @@ section.contactform.indexconatcform {
  .hometab{
     padding-top: 57px;
     background-color: #6494FF;
+    padding-bottom: 183px;
 }
 
 .hometab  .content h3 {
@@ -2268,6 +2267,7 @@ section.contactform.indexconatcform {
     line-height: 18px;
     color: #414145;
     padding-bottom: 11px;
+    display: flex;
 
 }
 
@@ -2288,7 +2288,7 @@ section.contactform.indexconatcform {
     color: #2563EB;
 }
 .hometab .tab-content{
-    padding: 68px 0px;
+    padding-top: 68px ;
 }
 /* resources */
 
@@ -2837,6 +2837,7 @@ padding-bottom: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 0.5px solid #C4C4C4;
 }
 section.contactform.serviceform {
 padding-bottom: 93px;
@@ -3179,4 +3180,114 @@ section.service.experetcusalt  .content h3{
 section.Overview.expertcusalt .overviewcoent,
 section.service.experetcusalt .content{
     padding-top: 90px;
+}
+
+/* home tab li */
+.hometab .topcontent ul li:last-child{
+    padding-right: 0px;
+}
+
+.treamcondsions input{
+    height: auto !important;
+}
+.section.contactform.serviceform  .treamcondsions input{
+    min-height: auto !important;
+}
+
+
+.modaldata img{
+    margin: 0 auto ;
+    display: block;
+}
+ .succesfull .modal-body{
+    padding: 36px 41px;
+}
+.succesfull .modaldata {
+    text-align: center;
+}
+.succesfull .modaldata  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #353535;
+    padding-top: 36px;
+}
+
+
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 580px;
+    margin: 1.75rem auto;
+}
+}
+
+
+.accordionstab .accordion-body{
+    padding: 0px;
+
+}
+.accordionstab .accordion-body .tabconetent .tabconets{
+    flex-direction: column;
+}
+.tabdata.titels {
+    padding: 5px 8px;
+    max-width: 256px;
+    width: 100%;
+    border-right: 0.5px solid #E2DBFC;
+    border-bottom: 0.5px solid #E2DBFC;
+   
+}
+.tabdata.titels:last-child{
+    border-right: none;
+}
+
+.tabdata.titels h5 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+    padding-bottom: 16px;    
+}
+.tabdata.titels ul{
+    padding-left: 22px;
+}
+.tabdata.titels ul li {
+    list-style: disc;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #353535;
+    padding-bottom: 22px;
+
+}
+.tabdata.titels ul li:last-child{
+    padding-bottom: 0px;
+}
+
+.contentright {
+    
+    text-align: center;
+    padding-top: 26px;
+    
+}
+.tabdata.titels .contentright ul li {
+    list-style: none ;
+}
+.accordions.accordionstab .accordion-item{
+    border-bottom: none;
+}
+
+.accordions.accordionstab .accordion-button {
+    padding: 1rem 0.5rem;
+}
+
+.accordions.accordionstab  .accordion-item{
+    border: none;
+}
+.accordions.accordionstab  .accordion-item .accordion-body{
+    border: 0.5px solid #E2DBFC;
+}
+section.mainconatact.serviceconatc.custalform{
+    padding-top: 120px;
 }
