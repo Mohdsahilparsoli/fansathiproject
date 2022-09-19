@@ -1,1313 +1,1490 @@
-
-
 /* @media (min-width:1600px){
     .container{
         max-width: 1600px;
     }
 } */
-@media (max-width:1599px){
-
+@media (max-width: 1599px) {
 }
-@media (max-width:1399px){
-    
+@media (max-width: 1399px) {
 }
 
-@media (max-width:1199px){
-    /* 16px */
-p{
+@media (max-width: 1199px) {
+  /* 16px */
+  p {
     font-size: 15px;
     line-height: 20px;
-}
+  }
 
-h3{
+  h3 {
     font-size: 30px;
     line-height: 40px;
-}
-h6{
+  }
+  h6 {
     font-size: 18px;
-}
-.content h3{
+  }
+  .content h3 {
     padding-bottom: 30px;
-}
-    nav a.services, nav a.nav-link {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    nav form a {
-        padding: 6px 14px;
-    
-}
-/* 44px */
-.homeconentdata h3{
+  }
+  nav a.services,
+  nav a.nav-link {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  nav form a {
+    padding: 6px 14px;
+  }
+  /* 44px */
+  .homeconentdata h3 {
     font-size: 38px;
     line-height: 45px;
-}
-.homeconentdata p{
-line-height: 22px;
-}
-.home{
+  }
+  .homeconentdata p {
+    line-height: 22px;
+  }
+  .home {
     padding: 60px 0px;
-}
-.centercard ,
-.homeconentdata{
+  }
+  .centercard,
+  .homeconentdata {
     padding: 50px 0px;
-}
-/* 16px*/
-.btns a{
+  }
+  /* 16px*/
+  .btns a {
     font-size: 15px;
-}
-.btns a:first-child{
-  padding:12px 28px;
-  font-size: 15px;
-}
-.content p{
+  }
+  .btns a:first-child {
+    padding: 12px 28px;
+    font-size: 15px;
+  }
+  .content p {
     padding-bottom: 40px;
-}
-.experts{
+  }
+  .experts {
     margin-top: 80px;
     padding: 40px 0px;
-}
-/* 120px pdadding */
-.expertscard .expretscards p{
+  }
+  /* 120px pdadding */
+  .expertscard .expretscards p {
     font-size: 15px;
     line-height: 22px;
-}
-.expertscard .expretscards h6{
+  }
+  .expertscard .expretscards h6 {
     padding: 18px 0px;
     font-size: 18px;
-}
-.peopleabout,
-section.gst,
-.servicesexpert,
-.expertscard{
+  }
+  .peopleabout,
+  section.gst,
+  .servicesexpert,
+  .expertscard {
     padding: 70px 0px;
-}
-.bookservices a,
-.tags span h6{
+  }
+  .bookservices a,
+  .tags span h6 {
     font-size: 15px;
     line-height: 20px;
-}
-.tags span p {
-font-size: 14px;
-line-height: normal;
-}
-.itrdata p{
+  }
+  .tags span p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .itrdata p {
     line-height: 20px;
-}
-.bookservices span p{
+  }
+  .bookservices span p {
     font-size: 25px;
     padding: 10px 0px;
-}
-.bookservices span{
+  }
+  .bookservices span {
     margin-right: 20px;
-}
+  }
 
-.hometab .topcontent ul li a{
+  .hometab .topcontent ul li a {
     font-size: 14px;
-}
-.hometab .tab-content .prices h6 {
-font-size: 14px;
-line-height: 20px;
-}
-.hometab .tab-content .prices span{
+  }
+  .hometab .tab-content .prices h6 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hometab .tab-content .prices span {
     font-size: 30px;
-}
-.hometab .tab-content .prices ul{
+  }
+  .hometab .tab-content .prices ul {
     padding-top: 20px;
-}
-section.gst .itrimg img{
+  }
+  section.gst .itrimg img {
     margin-left: auto;
-}
-.resources .tags span a{
+  }
+  .resources .tags span a {
     font-size: 14px;
-}
+  }
 
-.loveus h6{
+  .loveus h6 {
     padding: 15px 0px;
-}
-.loveus p{
+  }
+  .loveus p {
     line-height: 20px;
     font-size: 13px;
-}
-section.profit.aboutweb{
+  }
+  section.profit.aboutweb {
     padding-top: 70px;
-}
-.benefitcards h6{
+  }
+  .benefitcards h6 {
     padding: 20px 0px;
-}
-.aboutweb .benefitcards p{
+  }
+  .aboutweb .benefitcards p {
     font-size: 15px;
     line-height: 20px;
-}
-.benefitcards h6{
+  }
+  .benefitcards h6 {
     font-size: 22px;
     line-height: 35px;
-}
-section.compnay.partner .compnayconet h2,
-.tream .treamconent h3, .loaction .bannerconet h4, .compnay .compnayconet h2, .peopleabout .mainconent h4, .brandvalue .brandlogos h3{
+  }
+  section.compnay.partner .compnayconet h2,
+  .tream .treamconent h3,
+  .loaction .bannerconet h4,
+  .compnay .compnayconet h2,
+  .peopleabout .mainconent h4,
+  .brandvalue .brandlogos h3 {
     font-size: 30px;
-    
-}
-section.compnay.partner .compnayconet h2{
+  }
+  section.compnay.partner .compnayconet h2 {
     line-height: 40px;
-}
-.peopleabout .mainconent p{
+  }
+  .peopleabout .mainconent p {
     padding-bottom: 25px;
-}
-.peopleabout .swiper-button-next{
+  }
+  .peopleabout .swiper-button-next {
     right: -35px;
-}
-.peopleabout .swiper-button-prev{
+  }
+  .peopleabout .swiper-button-prev {
     left: -35px;
-}
-.peopleabout .aboutpeople p{
+  }
+  .peopleabout .aboutpeople p {
     font-size: 15px;
     line-height: 22px;
-}
-.peopleabout .aboutpeople h6{
+  }
+  .peopleabout .aboutpeople h6 {
     font-size: 22px;
     padding: 20px 0px;
-}
-section.mainconatact.serviceconatc .contactdata span h5{
+  }
+  section.mainconatact.serviceconatc .contactdata span h5 {
     font-size: 20px;
-}
-.contactdata a img {
-max-width: 50px;
-}
-.contactdata span img {
+  }
+  .contactdata a img {
     max-width: 50px;
-}
-section.contactform{
+  }
+  .contactdata span img {
+    max-width: 50px;
+  }
+  section.contactform {
     padding-top: 70px;
-}
-.treamcondsions a{
+  }
+  .treamcondsions a {
     margin-left: 160px;
-}
-.fotterlogo a,
-.socialinks a,
-.fotterlogo p,
-.newslatter form a ,
-.foterlinks li a{
+  }
+  .fotterlogo a,
+  .socialinks a,
+  .fotterlogo p,
+  .newslatter form a,
+  .foterlinks li a {
     font-size: 14px;
-}
-.newslatter form a {
+  }
+  .newslatter form a {
     padding: 14px 10px;
-}
-.foterlinks li {
-padding-bottom: 8px;
-}
-.foter h5 {
-padding-bottom: 20px;
-}
-.socialinks li{
+  }
+  .foterlinks li {
+    padding-bottom: 8px;
+  }
+  .foter h5 {
+    padding-bottom: 20px;
+  }
+  .socialinks li {
     padding-bottom: 15px;
-}
-.newslatter h4{
+  }
+  .newslatter h4 {
     font-size: 18px;
-}
-.newslatter form input{
+  }
+  .newslatter form input {
     font-size: 14px;
     max-width: 190px;
-}
-.pagebanner{
+  }
+  .pagebanner {
     padding: 60px 0px;
-}
-.pagebanner .bannerconnet h2{
+  }
+  .pagebanner .bannerconnet h2 {
     font-size: 35px;
     line-height: 40px;
-}
-.compnay{
+  }
+  .compnay {
     padding: 120px 0px;
-
-}
-.compnay .compnayconet p, .loaction .bannerconet p, .tream .treamconent p, .loaction .bannerconet address{
+  }
+  .compnay .compnayconet p,
+  .loaction .bannerconet p,
+  .tream .treamconent p,
+  .loaction .bannerconet address {
     font-size: 15px;
     line-height: 25px;
-}
-.tream{
+  }
+  .tream {
     padding: 40px 0px;
-}
-.tream .treamconent h3{
+  }
+  .tream .treamconent h3 {
     padding-bottom: 30px;
-}
-.tream .treamconent p{
-
+  }
+  .tream .treamconent p {
     padding: 0px 30px;
-}
-.contactus p{
+  }
+  .contactus p {
     height: 140px;
     line-height: 22px;
-
-}
-.contactus{
+  }
+  .contactus {
     padding-bottom: 35px;
-}
-.genralconat .logos  img {
+  }
+  .genralconat .logos img {
     max-width: 50px;
-}
-.logos b{
+  }
+  .logos b {
     font-size: 15px;
-}
-section.compnay.partner .compnayconet h2{
-    max-width:100% ;
-}
-section.contactform.serviceform{
+  }
+  section.compnay.partner .compnayconet h2 {
+    max-width: 100%;
+  }
+  section.contactform.serviceform {
     padding-bottom: 30px;
-}
+  }
 
-.conadistions p, .becomepartentform .becomemamber form label {
-
+  .conadistions p,
+  .becomepartentform .becomemamber form label {
     font-size: 17px;
     line-height: 12px;
-}
-select.form-select,
-.form-select .becomepartentform .becomemamber form select, .becomepartentform .becomemamber form .form-control{
+  }
+  select.form-select,
+  .form-select .becomepartentform .becomemamber form select,
+  .becomepartentform .becomemamber form .form-control {
     height: 45px;
-}
- .becomepartentform .becomemamber form label{
+  }
+  .becomepartentform .becomemamber form label {
     font-size: 15px;
     line-height: 12px;
-}
-.seumbitdata{
+  }
+  .seumbitdata {
     padding-top: 40px;
     padding-bottom: 20px;
-}
-section.compnay.partner,
-section.postion,
-section.becomepartentform.agent{
+  }
+  section.compnay.partner,
+  section.postion,
+  section.becomepartentform.agent {
     padding: 70px 0px;
-}
-.bannerconnet p{
+  }
+  .bannerconnet p {
     font-size: 15px;
     line-height: 25px;
-}
-.foter{
+  }
+  .foter {
     padding: 90px 0px;
-}
-.postion h2{
+  }
+  .postion h2 {
     padding-bottom: 25px;
     font-size: 30px;
     line-height: 40px;
-}
-section.postion{
+  }
+  section.postion {
     padding-top: 20px;
-}
-.accordiens .accordion-item p{
+  }
+  .accordiens .accordion-item p {
     line-height: 20px;
-}
-.accordiens .maindata h4{
+  }
+  .accordiens .maindata h4 {
     padding-top: 15px;
     font-size: 17px;
-}
-.accordiens .accordion-item p,
-.accordiens .maindata h4{
+  }
+  .accordiens .accordion-item p,
+  .accordiens .maindata h4 {
     padding-top: 10px;
-}
-.accordiens .maindata ul li:first-child{
+  }
+  .accordiens .maindata ul li:first-child {
     padding-top: 10px;
-}
-.accordiens .maindata ul li{
+  }
+  .accordiens .maindata ul li {
     padding-bottom: 4px;
-}
-.job h2{
+  }
+  .job h2 {
     padding-bottom: 30px;
     font-size: 30px;
     line-height: 35px;
-}
-.plan .price .pricebody span{
+  }
+  .plan .price .pricebody span {
     font-size: 25px;
-}
-.plan .content p {
+  }
+  .plan .content p {
     padding-bottom: 0px;
-}
-.service .content h3{
+  }
+  .service .content h3 {
     font-size: 40px;
     line-height: 50px;
-}
-.service{
+  }
+  .service {
     padding: 70px 0px;
-}
-.service .content p{
+  }
+  .service .content p {
     font-size: 15px;
     line-height: 24px;
-}
-.servicebook .sumbitdata a {
+  }
+  .servicebook .sumbitdata a {
     padding: 12px 11px;
     font-size: 14px;
-}
+  }
 
-.servicebook .price p{
+  .servicebook .price p {
     font-size: 12px;
-}
-.servicebook .price h5 {
+  }
+  .servicebook .price h5 {
     font-size: 20px;
-}
-.servicebook textarea, .servicebook select, .servicebook input{
+  }
+  .servicebook textarea,
+  .servicebook select,
+  .servicebook input {
     height: 40px;
     margin-bottom: 15px;
-}
-.Finsathi{
+  }
+  .Finsathi {
     padding: 70px 0px;
-}
-.Finsathi .content h3{
-    max-width:523px;
-}
-.servicestabs .content h3{
+  }
+  .Finsathi .content h3 {
     max-width: 523px;
-}
-.landing{
+  }
+  .servicestabs .content h3 {
+    max-width: 523px;
+  }
+  .landing {
     max-width: 1076px;
-}
-.landing a{
+  }
+  .landing a {
     font-size: 15px;
-}
-.overviewcoent p {
+  }
+  .overviewcoent p {
     line-height: 24px;
-}
-.Overview .overviewcoent{
+  }
+  .Overview .overviewcoent {
     padding: 35px 0px;
-}
-.Overview{
+  }
+  .Overview {
     padding-bottom: 70px;
-}
-.overviewcoent ul li{
+  }
+  .overviewcoent ul li {
     padding-bottom: 45px;
-}
-.benfits {
+  }
+  .benfits {
     padding-bottom: 70px;
-}
-.requirements{
+  }
+  .requirements {
     padding: 80px 0px;
-}
-.requiremetscontent p {
+  }
+  .requiremetscontent p {
     line-height: 22px;
-}
-.requirements .colrequmentsdata{
+  }
+  .requirements .colrequmentsdata {
     padding-bottom: 40px;
-}
-.requiremetscontent p {
+  }
+  .requiremetscontent p {
     line-height: 24px;
-}
-.stepasprocess .colrequmentsdata{
+  }
+  .stepasprocess .colrequmentsdata {
     padding-bottom: 40px;
-}
-.stepasprocess .colrequmentsdata::after{
+  }
+  .stepasprocess .colrequmentsdata::after {
     height: 60px;
-}
-.stepasprocess{
-    padding: 70px 0px ;
-}
-.required{
-    padding: 40px 0px ;
-}
-.required .content p{
+  }
+  .stepasprocess {
+    padding: 70px 0px;
+  }
+  .required {
+    padding: 40px 0px;
+  }
+  .required .content p {
     padding-bottom: 70px;
-}
-.reuiredatda span h6{
+  }
+  .reuiredatda span h6 {
     font-size: 17px;
     line-height: 25px;
-}
-.list{
+  }
+  .list {
     font-size: 15px;
     line-height: 25px;
-}
-.requirements{
-    padding: 50px 0px ;
-}
-.colrequmentsdata .maindata h6{
+  }
+  .requirements {
+    padding: 50px 0px;
+  }
+  .colrequmentsdata .maindata h6 {
     padding-bottom: 10px;
-}
-.faq{
+  }
+  .faq {
     padding: 70px 0px;
-}
-.faq .accordion-body ul li{
+  }
+  .faq .accordion-body ul li {
     line-height: 25px;
     font-size: 15px;
     padding-bottom: 20px;
-}
-.compare{
+  }
+  .compare {
     padding: 70px 0px;
-}
-.resourcesdata .body h6{
+  }
+  .resourcesdata .body h6 {
     font-size: 15px;
     line-height: 22px;
-}
-.exploreus a{
+  }
+  .exploreus a {
     font-size: 15px;
-    padding: 12px 25px;    
-}
-section.Resources{
+    padding: 12px 25px;
+  }
+  section.Resources {
     padding-bottom: 70px;
-}
-.Finsathi .steps {
-max-width: 250px;
-padding: 20px;
-}
-.custumsteps .mainsteps::after {
-right: -150px;
-width: 90px;
-}
+  }
+  .Finsathi .steps {
+    max-width: 250px;
+    padding: 20px;
+  }
+  .custumsteps .mainsteps::after {
+    right: -150px;
+    width: 90px;
+  }
 
-section.gstslider.servicepagebanner{
+  section.gstslider.servicepagebanner {
     padding: 120px 0px;
-}
-.gstslider .sliderconent h1{
+  }
+  .gstslider .sliderconent h1 {
     font-size: 40px;
     line-height: 55px;
-
-}
-.gstslider .sliderconent span{
+  }
+  .gstslider .sliderconent span {
     margin-top: 12px;
-}
-section.formstab.dscpage .content h3{
+  }
+  section.formstab.dscpage .content h3 {
     padding-bottom: 40px;
-}
-section.video.formstab.dscpage .tabdeshing{
+  }
+  section.video.formstab.dscpage .tabdeshing {
     padding: 16px 30px 30px 30px;
     max-width: 767px;
-}
-section.video.formstab.dscpage .tablinks a{
+  }
+  section.video.formstab.dscpage .tablinks a {
     font-size: 18px;
-    line-height:25px ;
-}
-section.video.formstab.dscpage{
+    line-height: 25px;
+  }
+  section.video.formstab.dscpage {
     padding-bottom: 70px;
-}
-.servicestabs{
+  }
+  .servicestabs {
     padding-bottom: 70px;
-}
-.Overview .overviewcoent h3{
+  }
+  .Overview .overviewcoent h3 {
     padding-bottom: 30px;
-}
-section.Overview.expertcusalt .overviewcoent, section.service.experetcusalt .content{
+  }
+  section.Overview.expertcusalt .overviewcoent,
+  section.service.experetcusalt .content {
     padding-top: 50px;
-}
-.stepasprocess h3{
+  }
+  .stepasprocess h3 {
     padding-bottom: 25px;
-}
-section.mainconatact.serviceconatc.custalform{
+  }
+  section.mainconatact.serviceconatc.custalform {
     padding-top: 70px;
+  }
+  .token {
+    padding: 70px 0px;
+  }
+  .token .content {
+    padding-top: 0px;
+  }
+  .token .content h3 {
+    padding-bottom: 70px;
+  }
 }
-}
-@media (max-width:991px){
-    .homeconentdata h3{
-        font-size: 35px;
-        line-height: 40px;
-    }
-    .homeconentdata p{
-        padding: 25px 0px;
-    }
-    .expertscard .expretscards{
-        margin-bottom: 24px;
-        padding: 14px;
-    }
-    .expertscard .expretscards h6{
-        padding: 12px 0px;
-    }
-    .expertscard {
-        padding: 30px 0px;
-    }
-    .bookservices{
-        display: block;
-    }
-    .bookservices .phone{
-        margin: 0px;
-    }
-    .itr .itrimg h3{
-        max-width: 100%;
-    }
-    section.gst .itrimg img,
-    .itrimg img{
-        display: block;
-        margin: 0 auto;
-    }
-    .bottomdata {
-        display: flex;
-        width: 100%;
-    }
-    section.gst.itr .row{
-        flex-direction: column-reverse;
-    }
-    .hometab .tab-content .prices{
-        margin-top: 10px;
-    }
-    .hometab .tab-content .prices h6{
-        height: 50px;
-    }
-    /* .hometab .topcontent ul{
+@media (max-width: 991px) {
+  .homeconentdata h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .homeconentdata p {
+    padding: 25px 0px;
+  }
+  .expertscard .expretscards {
+    margin-bottom: 24px;
+    padding: 14px;
+  }
+  .expertscard .expretscards h6 {
+    padding: 12px 0px;
+  }
+  .expertscard {
+    padding: 30px 0px;
+  }
+  .bookservices {
+    display: block;
+  }
+  .bookservices .phone {
+    margin: 0px;
+  }
+  .itr .itrimg h3 {
+    max-width: 100%;
+  }
+  section.gst .itrimg img,
+  .itrimg img {
+    display: block;
+    margin: 0 auto;
+  }
+  .bottomdata {
+    display: flex;
+    width: 100%;
+  }
+  section.gst.itr .row {
+    flex-direction: column-reverse;
+  }
+  .hometab .tab-content .prices {
+    margin-top: 10px;
+  }
+  .hometab .tab-content .prices h6 {
+    height: 50px;
+  }
+  /* .hometab .topcontent ul{
         padding-bottom: 30px;
     } */
-    .loveus{
-        margin-bottom: 10px;
-    }
-    .benefitcards h6{
-        font-size: 20px;
+  .loveus {
+    margin-bottom: 10px;
+  }
+  .benefitcards h6 {
+    font-size: 20px;
     line-height: 30px;
-    }
-    .treamcondsions a {
+  }
+  .treamcondsions a {
     margin-left: 37px;
-    }
-    section.mainconatact.serviceconatc .contactdata span h5 {
-    
-        font-size: 18px;
-    }
-    
-.endfooter a {
-    padding-right: 34px;
-}
-.fotterlogo a, .socialinks a, .fotterlogo p, .newslatter form a, .foterlinks li a{
-    font-size: 12px;
-}
-.socialinks a img{
-    padding-right: 10px;
-}
-.foterlinks li{
-    padding-bottom: 0px;
-}
+  }
+  section.mainconatact.serviceconatc .contactdata span h5 {
+    font-size: 18px;
+  }
 
-.fotterlogo p{
+  .endfooter a {
+    padding-right: 34px;
+  }
+  .fotterlogo a,
+  .socialinks a,
+  .fotterlogo p,
+  .newslatter form a,
+  .foterlinks li a {
+    font-size: 12px;
+  }
+  .socialinks a img {
+    padding-right: 10px;
+  }
+  .foterlinks li {
+    padding-bottom: 0px;
+  }
+
+  .fotterlogo p {
     padding-top: 24px;
-}
-.socialinks{
+  }
+  .socialinks {
     padding-bottom: 30px;
-}
-.newslatter form{
+  }
+  .newslatter form {
     padding-top: 15px;
-}
-.newslatter form input{
-    
+  }
+  .newslatter form input {
     max-width: 400px;
     display: inline-block;
     width: 100%;
-
-}
-.pagebanner .bannerconnet h2{
+  }
+  .pagebanner .bannerconnet h2 {
     font-size: 30px;
     line-height: 35px;
-}
-.compnay{
+  }
+  .compnay {
     padding: 70px 0px;
-}
+  }
 
-.loaction{
+  .loaction {
     padding: 70px 0px;
-}
-.contactus p {
+  }
+  .contactus p {
     padding: 21px 16px 13px 16px;
     font-size: 15px;
-}
+  }
 
-.contactus{
+  .contactus {
     margin-top: 10px;
-}
-.brandlogos .logos a {
+  }
+  .brandlogos .logos a {
     margin: 0 10px;
     display: inline-block;
-}
-.mainimg img {
+  }
+  .mainimg img {
     max-width: 250px;
     display: block;
     margin: 0 auto;
-}
-section.compnay.partner .compnayconet h2{
+  }
+  section.compnay.partner .compnayconet h2 {
     line-height: 40px;
-}
-.compnay .compnayconet{
+  }
+  .compnay .compnayconet {
     padding: 30px 0px;
-}
-section.compnay.partner .parneterimg{
+  }
+  section.compnay.partner .parneterimg {
     justify-content: center;
-}
-section.compnay.partner.data .parneterimg img{
+  }
+  section.compnay.partner.data .parneterimg img {
     max-width: 100%;
-}
-.accordion-button{
+  }
+  .accordion-button {
     padding: 12px 12px;
-}
-section.postion{
+  }
+  section.postion {
     padding: 40px 0px;
-}
-.job form input{
+  }
+  .job form input {
     height: 40px;
-}
-.contactdata a, .contactdata h6, .contactdata h4 {
+  }
+  .contactdata a,
+  .contactdata h6,
+  .contactdata h4 {
     font-size: 14px;
     line-height: 20px;
-}
-section.contactform{
-padding-bottom: 70px;}
+  }
+  section.contactform {
+    padding-bottom: 70px;
+  }
 
-
-.physiciallocation .physicalcontact p, .physiciallocation .physicalcontact address {
+  .physiciallocation .physicalcontact p,
+  .physiciallocation .physicalcontact address {
     max-width: 336px;
     margin: 0 auto;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: #0C0C0D;
-  padding: 8px;
-}
-.physiciallocation{
+    color: #0c0c0d;
+    padding: 8px;
+  }
+  .physiciallocation {
     padding-bottom: 50px;
-}
+  }
 
-.plan .price{
+  .plan .price {
     margin-top: 60px;
-}
-.plan{
+  }
+  .plan {
     padding: 40px 0px;
-}
-.service .content h3{
+  }
+  .service .content h3 {
     max-width: 100%;
-}
-.service .content p{
+  }
+  .service .content p {
     max-width: 100%;
-}
-.service .content h3{
+  }
+  .service .content h3 {
     font-size: 35px;
     line-height: 40px;
     padding-bottom: 25px;
-}
-.custumsteps{
+  }
+  .custumsteps {
     flex-wrap: wrap;
     justify-content: center;
-}.custumsteps .mainsteps::after{
+  }
+  .custumsteps .mainsteps::after {
     display: none;
-}
-.custumsteps .mainsteps{
+  }
+  .custumsteps .mainsteps {
     /* margin-top: 10px; */
     margin: 10px;
-}
- .Overview .overviewcoent p{
+  }
+  .Overview .overviewcoent p {
     max-width: 100%;
- }
- .Overview .overviewcoent h3{
+  }
+  .Overview .overviewcoent h3 {
     padding-bottom: 25px;
- }
- .servicestabs{
+  }
+  .servicestabs {
     padding-bottom: 60px;
- }
- .landing{
+  }
+  .landing {
     flex-wrap: wrap;
     justify-content: center;
- }
- .landing a{
+  }
+  .landing a {
     padding: 10px 0px;
     margin: 0px 10px;
- }
- section.benfites .row {
+  }
+  section.benfites .row {
     flex-direction: column-reverse;
-}
-.aboutbenfits{
+  }
+  .aboutbenfits {
     padding-left: 0px;
-}
-.benfits .overviewcoent h3{
+  }
+  .benfits .overviewcoent h3 {
     padding-bottom: 25px;
-}
-.benfits .overviewcoent p{
+  }
+  .benfits .overviewcoent p {
     max-width: 100%;
     padding-bottom: 50px;
-}
-section.benfites .overviewcoent ul li  {
- padding-bottom: 10px;
-}
-section.benfites .overviewcoent ul li p {
+  }
+  section.benfites .overviewcoent ul li {
+    padding-bottom: 10px;
+  }
+  section.benfites .overviewcoent ul li p {
     padding-bottom: 0px;
-}
-.requiremetscontent h3{
+  }
+  .requiremetscontent h3 {
     padding-bottom: 25px;
-}
-.requiremetscontent p{
+  }
+  .requiremetscontent p {
     max-width: 100%;
-}
-.requirements .colrequmentsdata{
+  }
+  .requirements .colrequmentsdata {
     padding-top: 20px;
     padding-bottom: 0px;
-}
-.stepasprocess .row {
+  }
+  .stepasprocess .row {
     flex-direction: column-reverse;
-} 
-.stepasprocess {
-    padding: 40px 0px ;
-}
+  }
+  .stepasprocess {
+    padding: 40px 0px;
+  }
 
-.stepasprocess  .requiremetscontent {
+  .stepasprocess .requiremetscontent {
     padding-bottom: 20px;
-}
-.stepasprocess h3{
+  }
+  .stepasprocess h3 {
     padding-bottom: 25px;
-}
-.stepasprocess .colrequmentsdata{
+  }
+  .stepasprocess .colrequmentsdata {
     padding-bottom: 25px;
-}
-.stepasprocess .colrequmentsdata::after{
+  }
+  .stepasprocess .colrequmentsdata::after {
     height: 40px;
     top: 54px;
-}
-.list{
+  }
+  .list {
     font-size: 14px;
     line-height: 22px;
-}
-.gstslider .sliderconent h1{
+  }
+  .gstslider .sliderconent h1 {
     font-size: 35px;
     line-height: 40px;
-}
-section.gstslider.servicepagebanner{
-    padding: 70px 0px ;
-}
-section.formstab.dscpage .content h3{
+  }
+  section.gstslider.servicepagebanner {
+    padding: 70px 0px;
+  }
+  section.formstab.dscpage .content h3 {
     font-size: 25px;
-}
-section.formstab.dscpage .content h3{
+  }
+  section.formstab.dscpage .content h3 {
     padding-bottom: 30px;
     line-height: 35px;
-}
- section.service.experetcusalt .content{
+  }
+  section.service.experetcusalt .content {
     padding-top: 0px;
-}
-.servicebook .sumbitdata{
+  }
+  .servicebook .sumbitdata {
     margin-top: 0px;
-}
-.servicebook select{
-margin-bottom: 0px;
-}
-section.servicestabs.serviceloading .landing{
+  }
+  .servicebook select {
+    margin-bottom: 0px;
+  }
+  section.servicestabs.serviceloading .landing {
     max-width: 570px;
-}
-.content p{
+  }
+  .content p {
     padding-bottom: 30px;
-}
-.required .content p{
+  }
+  .required .content p {
     padding-bottom: 40px;
-}
-section.mainconatact.serviceconatc.custalform{
+  }
+  section.mainconatact.serviceconatc.custalform {
     padding-top: 40px;
+  }
+  section.Overview.expertcusalt .overviewcoent {
+    padding-top: 0px;
+  }
+  .selectone .cutessies {
+    margin-bottom: 33px;
+    margin-top: 12px;
+  }
+  .token .selectone h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .radionbuuton {
+    padding-bottom: 10px;
+  }
+  .selectone .cutessies input {
+    width: 40px;
+    height: 22px !important;
+    line-height: 50px;
+  }
+  .selectone .cutessies .inpudata {
+    width: 90px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  section.benfits .row{
+    flex-direction: column-reverse;
+  }
+  section.benfits.servicepvt  .overviewcoent ul li p {
+    padding-bottom: 0px;
+  }
+  section.benfits.servicepvt  .overviewcoent ul li{
+    padding-bottom: 20px;
+  }
+  .benfits{
+    padding: 40px 0px;
+  }
+  section.mainconatact.serviceconatc.legalservipage{
+    padding-top: 60px;
+  }
 }
-}
-@media (max-width:767px){
- /* 15 px*/
-    p{
-        font-size: 14px;
-        line-height: 25px;
+@media (max-width: 767px) {
+  /* 15 px*/
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .homeconentdata h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .homeconentdata p {
+    line-height: 20px;
+    padding: 20px 0px;
+  }
 
-    }
-    .homeconentdata h3 {
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .homeconentdata p{
-        line-height: 20px;
-        padding: 20px 0px;
-    }
+  .btns a:first-child {
+    padding: 10px 14px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .btns a:last-child {
+    font-size: 14px;
+    margin-right: 0px;
+  }
 
-    .btns a:first-child {
-        padding: 10px 14px;
-        font-size: 14px;
-        margin-right: 10px;
-    }
-    .btns a:last-child{
-        font-size: 14px;
-        margin-right: 0px;
-    }
+  .content h3 {
+    padding-bottom: 25px;
+  }
+  .content {
+    line-height: 25px;
+  }
+  .expertscard {
+    padding: 0px;
+  }
 
-    .content h3{
-        padding-bottom: 25px;
+  .tags {
+    display: block;
+  }
+  .servicesexpert .tags .img-fluid {
+    margin-top: 0px;
+  }
 
-    }
-    .content{
-        line-height: 25px;
-    }
-    .expertscard{
-        padding: 0px;
-    }
- 
-    .tags{
-        display: block;
-    }
-    .servicesexpert .tags .img-fluid{
-        margin-top: 0px;
-    }
-    
-    .benefitcards{
-        margin-top: 10px;
-    }
-    .aboutweb .benefitcards h6{
-        max-width: 100%;
-    }
-    .aboutweb .benefitcards p{
-        font-size: 14px;
-        line-height: 18px;
-    }
-    
-    .peopleabout .swiper-button-prev{
-        left: 0px;
-    }
-    .peopleabout .swiper-button-next{
-        right: 0px;
-    }
-    .contactdata span img{
-        max-width: 30px;
-    }
-    section.mainconatact.serviceconatc .contactdata span h5{
-        font-size: 13px;
-    }
-    .contactdata a{
-        font-size: 12px;
-    }
-    .serviceconatc .contactdata p{
-        padding-left: 0px;
-        font-size: 12px;
-    }
-    section.contactform{
-        padding-top: 45px;
-    }
-    .contactform form select, .contactform form input {
-        height: 42px;
-        font-size: 13px;
-    }
-    .contactform form textarea{
-        height: 80px;
-    }
-    .job form a{ width: 160px;
+  .benefitcards {
+    margin-top: 10px;
+  }
+  .aboutweb .benefitcards h6 {
+    max-width: 100%;
+  }
+  .aboutweb .benefitcards p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .peopleabout .swiper-button-prev {
+    left: 0px;
+  }
+  .peopleabout .swiper-button-next {
+    right: 0px;
+  }
+  .contactdata span img {
+    max-width: 30px;
+  }
+  section.mainconatact.serviceconatc .contactdata span h5 {
+    font-size: 13px;
+  }
+  .contactdata a {
+    font-size: 12px;
+  }
+  .serviceconatc .contactdata p {
+    padding-left: 0px;
+    font-size: 12px;
+  }
+  section.contactform {
+    padding-top: 45px;
+  }
+  .contactform form select,
+  .contactform form input {
+    height: 42px;
+    font-size: 13px;
+  }
+  .contactform form textarea {
+    height: 80px;
+  }
+  .job form a {
+    width: 160px;
     font-size: 15px;
     line-height: 40px;
     height: 40px;
-}
+  }
 
-    .becomepartentform a,
-    .treamcondsions a {
-        color: #FFFFFF;
-        padding: 10px 22px;
-        font-size: 15px;
-    }
-    .treamcondsions label{
-        font-size: 13px;
-    }
-    .fotterlogo{
-        padding-top: 30px;
-    }
-    .socialinks{
-        padding: 25px 0px;
-    }
-    .foter{
-        padding: 40px 0px;
-    }
-    .endfooter a{
-        padding-right: 0px;
-        font-size: 12px;
-    }
-    .endfooter{
-        justify-content: space-between;
-    }
-    .brandvalue .logos{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .pagebanner .bannerconnet h2{
-        font-size: 25px;
-    }
-    .compnay .compnayconet{
-        padding: 30px 0px;
-    }
-    .compnay{
-        padding: 40px 0px;
-    }
-    .tream .treamconent h3, .loaction .bannerconet h4, .compnay .compnayconet h2, .peopleabout .mainconent h4, .brandvalue .brandlogos h3{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .loaction .bannerconet h4{
-        padding-bottom: 15px;
-    }
-    .loaction .bannerconet p, .loaction .bannerconet address{
-        max-width: 100%;
-    }
-    .loaction .bannerconet address{
-        padding: 20px 0px;
-    }
-    .tream .treamconent p{
-        padding: 0px 15px;
-    }
-    .brandvalue{
-        padding: 40px 0px;
-    }
-    .mainimg img{
-        max-width: 100%;
-    }
-    .becomepartentform .form-floating textarea{
-        height: 100px;
-    }
-    section.compnay.partner .compnayconet h2{
-        line-height: 30px;
-    }
-    section.becomepartentform.agent{
-        padding: 40px 0px;
-    }
-    section.compnay.partner .compnayconet h2{
-        font-size: 30px;
-        line-height: 35px;
-    }
-    section.compnay.partner{
-        padding: 40px 0px;
-    }
-    section.compnay.partner .compnayconet h2{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .physiciallocation .physicalcontact h5{
-        padding: 8px 0px;
-    }
-    .physiciallocation .physicalcontact {
-        padding: 20px 0px;
-    }
-    .physiciallocation   .col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.col-xxl-6{
-        margin-top: 20px;
-    }
-    .bannerconnet p{
-        line-height: 20px;
-    }
-    .pagebanner{
-        padding: 40px 0px;
-    }
-    .contactdata span h5{
-        font-size: 18px;
-    }
-    .mainconatact{
-        padding-top: 40px;
-    }
-    .conadistions label.form-check-label{
-        font-size: 15px !important;
-
-    }
-    .form-check-input[type=checkbox]{
-        height: 15px;
-        width: 15px;
-    }
-    .plan .col-12 a {
-        bottom: -20px;
-        left: 50%;
-        width: 128px;
-        height: 47px;
-        line-height: 47px;
-    }
-
-    .Finsathi .steps{
-        max-width: 200px;
-    }
-    .reuiredatda{
-        margin-top: 20px;
-    }
-    .reuiredatda span{
-        margin-bottom: 15px;
-    }
-    .Resources{
-        margin-bottom: 30px;
-    }
-    section.gstslider.servicepagebanner .row{
-        flex-direction: column-reverse;
-
-    }
-    section.gstslider.servicepagebanner .sliderconent{
-        padding-top: 0px;
-    }
-    .gstslider .sliderconent h1{
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .gstslider .sliderconent span{
-        margin-top: 8px;
-    }
-    section.gstslider.servicepagebanner p{
-        padding-top: 10px;
-    }
-    section.gstslider.servicepagebanner    .bannerimg img {
-        max-width: 400px;
-    }
-    section.gstslider.servicepagebanner{
-        padding: 40px 0px;
-    }
-    section.gstslider.servicepagebanner.video .sliderconent{
-        padding-left: 0px;
-        text-align: center;
-    }
-    section.gstslider.servicepagebanner .bannerimg img{
-        display: block;
-        margin: 0 auto;
-        max-width: 300px;
-    }
-    .gstslider .sliderconent h1{
-        font-size: 25px;
-        line-height: 30px;
-
-    }
-    section.video.formstab.dscpage .tablinks a{
-        font-size: 18px;
-    }
-    section.video.formstab.dscpage .tablinks a img {
-        max-width: 50px;
-    }
-    section.video.formstab.dscpage{
-        padding-bottom: 40px;
-    }
-    section.formstab.dscpage .content h3{
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .servicebook{
-        padding: 30px;
-    }
-    .servicestabs{
-        padding-bottom: 0px;
-    }
-}
-@media (max-width:575px){
-h3{
+  .becomepartentform a,
+  .treamcondsions a {
+    color: #ffffff;
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+  .treamcondsions label {
+    font-size: 13px;
+  }
+  .fotterlogo {
+    padding-top: 30px;
+  }
+  .socialinks {
+    padding: 25px 0px;
+  }
+  .foter {
+    padding: 40px 0px;
+  }
+  .endfooter a {
+    padding-right: 0px;
+    font-size: 12px;
+  }
+  .endfooter {
+    justify-content: space-between;
+  }
+  .brandvalue .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pagebanner .bannerconnet h2 {
+    font-size: 25px;
+  }
+  .compnay .compnayconet {
+    padding: 30px 0px;
+  }
+  .compnay {
+    padding: 40px 0px;
+  }
+  .tream .treamconent h3,
+  .loaction .bannerconet h4,
+  .compnay .compnayconet h2,
+  .peopleabout .mainconent h4,
+  .brandvalue .brandlogos h3 {
     font-size: 25px;
     line-height: 30px;
-}
-p {
+  }
+  .loaction .bannerconet h4 {
+    padding-bottom: 15px;
+  }
+  .loaction .bannerconet p,
+  .loaction .bannerconet address {
+    max-width: 100%;
+  }
+  .loaction .bannerconet address {
+    padding: 20px 0px;
+  }
+  .tream .treamconent p {
+    padding: 0px 15px;
+  }
+  .brandvalue {
+    padding: 40px 0px;
+  }
+  .mainimg img {
+    max-width: 100%;
+  }
+  .becomepartentform .form-floating textarea {
+    height: 100px;
+  }
+  section.compnay.partner .compnayconet h2 {
+    line-height: 30px;
+  }
+  section.becomepartentform.agent {
+    padding: 40px 0px;
+  }
+  section.compnay.partner .compnayconet h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  section.compnay.partner {
+    padding: 40px 0px;
+  }
+  section.compnay.partner .compnayconet h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .physiciallocation .physicalcontact h5 {
+    padding: 8px 0px;
+  }
+  .physiciallocation .physicalcontact {
+    padding: 20px 0px;
+  }
+  .physiciallocation .col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.col-xxl-6 {
+    margin-top: 20px;
+  }
+  .bannerconnet p {
+    line-height: 20px;
+  }
+  .pagebanner {
+    padding: 40px 0px;
+  }
+  .contactdata span h5 {
+    font-size: 18px;
+  }
+  .mainconatact {
+    padding-top: 40px;
+  }
+  .conadistions label.form-check-label {
+    font-size: 15px !important;
+  }
+  .form-check-input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+  }
+  .plan .col-12 a {
+    bottom: -20px;
+    left: 50%;
+    width: 128px;
+    height: 47px;
+    line-height: 47px;
+  }
+
+  .Finsathi .steps {
+    max-width: 200px;
+  }
+  .reuiredatda {
+    margin-top: 20px;
+  }
+  .reuiredatda span {
+    margin-bottom: 15px;
+  }
+  .Resources {
+    margin-bottom: 30px;
+  }
+  section.gstslider.servicepagebanner .row {
+    flex-direction: column-reverse;
+  }
+  section.gstslider.servicepagebanner .sliderconent {
+    padding-top: 0px;
+  }
+  .gstslider .sliderconent h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .gstslider .sliderconent span {
+    margin-top: 8px;
+  }
+  section.gstslider.servicepagebanner p {
+    padding-top: 10px;
+  }
+  section.gstslider.servicepagebanner .bannerimg img {
+    max-width: 400px;
+  }
+  section.gstslider.servicepagebanner {
+    padding: 40px 0px;
+  }
+  section.gstslider.servicepagebanner.video .sliderconent {
+    padding-left: 0px;
+    text-align: center;
+  }
+  section.gstslider.servicepagebanner .bannerimg img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .gstslider .sliderconent h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  section.video.formstab.dscpage .tablinks a {
+    font-size: 18px;
+  }
+  section.video.formstab.dscpage .tablinks a img {
+    max-width: 50px;
+  }
+  section.video.formstab.dscpage {
+    padding-bottom: 40px;
+  }
+  section.formstab.dscpage .content h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .servicebook {
+    padding: 30px;
+  }
+  .servicestabs {
+    padding-bottom: 0px;
+  }
+  .service .content h3 {
+    font-size: 30px;
+    line-height: 32px;
+    padding-bottom: 14px;
+  }
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .Finsathi .steps h6 {
+    font-size: 18px;
     line-height: 22px;
+  }
+  section.servicestabs.serviceloading .landing {
+    margin-bottom: 50px;
+  }
+
+  section.gstslider.servicepagebanner .sliderconent h5 {
+    padding-bottom: 10px;
+  }
+
+  .token {
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .token .content h3 {
+    padding-bottom: 40px;
+  }
+  .formdatasumbit {
+    padding: 30px;
+  }
+  .formdatasumbit input {
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .formdatasumbit textarea {
+    margin-bottom: 15px;
+
+    height: 60px;
+  }
+  .service{
+    padding: 40px 0px ;
+  }
+  .Finsathi{
+    padding: 40px 0px ;
+  }
+  section.servicestabs{
+    padding: 40px 0px;
+  }
+  .faq{
+    padding: 40px 0px;
+  }
+  .resourcesdata{
+    margin-bottom: 30px;
+  }
+  .Overview{
+    padding-top: 0px;
+    padding-bottom: 40px ;
+  }
+  .exploreus{
+    padding-top: 40px;
+  }
+  section.mainconatact.serviceconatc.legalservipage{
+    padding-top: 40px;
+  }
 }
-    .home{
-        padding: 30px 0px;
-    }
-    .homeconentdata{
-        padding: 20px 0px;
-    }
-    .homeconentdata h3{
-        font-size: 25px;
-        line-height: normal;
-    }
-    .btns{
-        text-align: center;
-    }
-    .homeconent img {
-        max-width: 300px;
-        display: block;
-        margin: 0 auto;
-    }
-    .expertscard .expretscards h6{
-        font-size: 16px;
-        padding-top: 0px;
-        padding-bottom: 8px;
-    }
-    .expertscard .expretscards p{
-        font-size: 14px;
-    }
-    .tags img,
-    .expertscard .expretscards img{
-        max-width: 50px;
-    }
-    .tags{
-        margin-bottom: 30px;
-    }
-    .centercard{
+@media (max-width: 575px) {
+  h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  p {
+    line-height: 22px;
+  }
+  .home {
+    padding: 30px 0px;
+  }
+  .homeconentdata {
+    padding: 20px 0px;
+  }
+  .homeconentdata h3 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .btns {
+    text-align: center;
+  }
+  .homeconent img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .expertscard .expretscards h6 {
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+  }
+  .expertscard .expretscards p {
+    font-size: 14px;
+  }
+  .tags img,
+  .expertscard .expretscards img {
+    max-width: 50px;
+  }
+  .tags {
+    margin-bottom: 30px;
+  }
+  .centercard {
+    padding: 0px;
+  }
+  .bookservices span p {
+    font-size: 20px;
+  }
+  .bookservices a {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .hometab {
+    padding-top: 30px;
+  }
+  section.profit.aboutweb,
+  .hometab .tab-content {
+    padding-top: 40px;
+  }
+  .hometab .topcontent ul li a {
+    font-size: 13px;
+    line-height: 20px;
+  }
 
-        padding: 0px;
-    }
-    .bookservices span p{
-        font-size: 20px;
-    }
-    .bookservices a{
-        font-size: 14px;
-        margin: 0px;
-    }
-    .hometab{
-        padding-top: 30px;
-    }
-    section.profit.aboutweb,
-    .hometab .tab-content{
-        padding-top: 40px;
-    }
-    .hometab .topcontent ul li a{
-        font-size: 13px;
-        line-height: 20px;
-    }
-    
-    .hometab .tab-content .prices{
-        margin: 10px auto;
-        max-width: 320px;
-    }
-    section.gst, .servicesexpert, .expertscard{
-        padding: 40px 0px;
-    }
-    .loveus{
-        padding: 0px 30px;
-        margin-bottom: 20px;
-    }
+  .hometab .tab-content .prices {
+    margin: 10px auto;
+    max-width: 320px;
+  }
+  section.gst,
+  .servicesexpert,
+  .expertscard {
+    padding: 40px 0px;
+  }
+  .loveus {
+    padding: 0px 30px;
+    margin-bottom: 20px;
+  }
 
-     .aboutweb .content h3{
-        padding-bottom: 25px;
-     }
-     .benefitcards{
-        text-align: center;
-     }
-     .aboutweb .benefitcards p{
-        max-width: 100%;
-        padding: 0px 50px;
-        height: auto;
-    }
-    .contactdata{
-        text-align: center;
-    }
-    .contactdata span{
-        justify-content: center;
-    }
-    .treamcondsions a{
-        margin-left: 0px;
-    }
-    .treamcondsions{
-        justify-content: space-between;
-    }
-    .endfooter{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-.foterlinks{
+  .aboutweb .content h3 {
+    padding-bottom: 25px;
+  }
+  .benefitcards {
+    text-align: center;
+  }
+  .aboutweb .benefitcards p {
+    max-width: 100%;
+    padding: 0px 50px;
+    height: auto;
+  }
+  .contactdata {
+    text-align: center;
+  }
+  .contactdata span {
+    justify-content: center;
+  }
+  .treamcondsions a {
+    margin-left: 0px;
+  }
+  .treamcondsions {
+    justify-content: space-between;
+  }
+  .endfooter {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .foterlinks {
     margin-top: 6px;
-}
+  }
 
-.newslatter form input{
+  .newslatter form input {
     max-width: 225px;
-}
-.peopleabout .swiper-button-next{
+  }
+  .peopleabout .swiper-button-next {
     right: 10px;
     height: 30px;
     width: 30px;
-}
-.peopleabout .swiper-button-prev{
+  }
+  .peopleabout .swiper-button-prev {
     left: 10px;
     height: 30px;
     width: 30px;
-}
-.contactus p{
+  }
+  .contactus p {
     min-height: auto;
     height: auto;
-}
-.compnay .compnayconet p, .loaction .bannerconet p, .tream .treamconent p, .loaction .bannerconet address{
+  }
+  .compnay .compnayconet p,
+  .loaction .bannerconet p,
+  .tream .treamconent p,
+  .loaction .bannerconet address {
     font-size: 14px;
     line-height: normal;
-}
-.bannerconnet a img {
+  }
+  .bannerconnet a img {
     max-width: 150px;
-}
-.compnay .companyimg{
+  }
+  .compnay .companyimg {
     max-width: 325px;
     margin: 0 auto;
-}
-.mainimg img {
+  }
+  .mainimg img {
     max-width: 300px;
-}
-.bannerconet img {
+  }
+  .bannerconet img {
     max-width: 300px;
     margin: 0 auto;
     display: block;
-}
-/* .pagebanner .bannerconnet h2,
+  }
+  /* .pagebanner .bannerconnet h2,
 .compnay .compnayconet{
     padding: 0px 30px;
 } */
-.brandvalue .logos a img {
+  .brandvalue .logos a img {
     max-width: 120px;
-}
-section.compnay.partner .parneterimg{
+  }
+  section.compnay.partner .parneterimg {
     margin-top: 20px;
-}
-.seumbitdata{
+  }
+  .seumbitdata {
     padding-top: 20px;
-}
-section.postion{
+  }
+  section.postion {
     padding-top: 0px;
-}
-.job form a {
+  }
+  .job form a {
     width: 122px;
     font-size: 14px;
     line-height: 39px;
     height: 39px;
-}
-.job h2{
+  }
+  .job h2 {
     font-size: 25px;
     line-height: normal;
     padding-bottom: 25px;
-}.postion .accordion-item{
+  }
+  .postion .accordion-item {
     margin-bottom: 15px;
-}
+  }
 
-.contactdata h4{
+  .contactdata h4 {
     max-width: 100%;
     text-align: center;
     padding: 0px 50px;
-}
-.becomepartentform{
+  }
+  .becomepartentform {
     padding-top: 0px;
-}.becomepartentform .becomemamber form label{
+  }
+  .becomepartentform .becomemamber form label {
     margin-bottom: 10px;
-}
-.service{
-    padding:40px 0px ;
-}
-.service .content h3{
+  }
+  .service {
+    padding-top: 0px;
+    padding-bottom: 40px ;
+  }
+  .service .content h3 {
     font-size: 25px;
     line-height: 30px;
-}
-.Finsathi .steps h6{
+  }
+  .Finsathi .steps h6 {
     line-height: 22px;
-}
-.resourcesdata{
+  }
+  .resourcesdata {
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
-}
-.content p{
+  }
+  .content p {
     padding-bottom: 25px;
-}
-.servicebook .price{
+  }
+  .servicebook .price {
     justify-content: center;
-}
-.servicebook .sumbitdata{
+  }
+  .servicebook .sumbitdata {
     text-align: center;
     padding-top: 15px;
-}
-section.Resources{
-    padding-bottom: 30px;
-}
-.exploreus{
+  }
+  section.Resources {
+    padding-bottom: 0px;
+  }
+  .exploreus {
     padding-top: 20px;
-}
-.faq{
-    padding: 40px 0px ;
-}
-.faq .accordion-body ul li{
+  }
+  .faq {
+    padding: 40px 0px;
+  }
+  .faq .accordion-body ul li {
     line-height: 20px;
     font-size: 14px;
-}
-section.formstab.dscpage .content h3{
+  }
+  section.formstab.dscpage .content h3 {
     font-size: 25px;
     line-height: 30px;
-}
-section.video.formstab.dscpage .tablinks a{
+  }
+  section.video.formstab.dscpage .tablinks a {
     font-size: 15px;
-}
-.required .content p{
+  }
+  .required .content p {
     padding-bottom: 30px;
+  }
+  section.servicestabs.serviceloading {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  section.mainconatact.serviceconatc.custalform {
+    padding-top: 0px;
+  }
+  .token .selectone {
+    padding-left: 95px;
+  }
+  .selectone .cutessies .inpudata {
+    width: 70px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  section.gstslider.servicepagebanner .sliderconent h5 {
+    font-size: 18px;
+  }
+  .gstslider .sliderconent span {
+    margin-top: 0px;
+  }
+  .radionbuuton {
+    padding-bottom: 5px;
+  }
+  .token .content h3 {
+    padding-bottom: 30px;
+  }
+  section.servicestabs{
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  section#Resources {
+    margin-bottom: 0px;
+}
+section.mainconatact.serviceconatc.legalservipage{
+    padding-top: 30px;
 }
 }
-@media (max-width:428px){
-    .Finsathi .steps{
-        max-width: 300px;
-    }
-    section.video.formstab.dscpage .tabdeshing{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .tablinks{
-        margin: 10px;
-    }
-    section.formstab.dscpage .content h3{
-        font-size: 20px;
-        line-height: 25px;
-    }
+@media (max-width: 428px) {
+  .Finsathi .steps {
+    max-width: 300px;
+  }
+  section.video.formstab.dscpage .tabdeshing {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tablinks {
+    margin: 10px;
+  }
+  section.formstab.dscpage .content h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .token .content h3 {
+    padding-bottom: 30px;
+  }
+
+  .token .content h3 {
+    padding-bottom: 25px;
+  }
+  .token .selectone {
+    padding-left: 40px;
+  }
 }
-@media (max-width:375px){
-    
+@media (max-width: 375px) {
 }
