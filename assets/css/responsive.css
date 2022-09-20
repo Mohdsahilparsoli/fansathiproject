@@ -455,7 +455,7 @@
   }
   .gstslider .sliderconent h1 {
     font-size: 40px;
-    line-height: 55px;
+    line-height: 50px;
   }
   .gstslider .sliderconent span {
     margin-top: 12px;
@@ -498,6 +498,71 @@
   }
   .token .content h3 {
     padding-bottom: 70px;
+  }
+  .gstslider .sliderconent h5{
+    font-size: 18px;
+    padding-bottom: 12px;
+    line-height: 20px;
+  }
+  .gstslider .sliderconent span{
+    font-size: 30px;
+  }
+  .bannerimg img {
+    max-width: 400px;
+  }
+  .formstab{
+    padding-bottom: 70px;
+  }
+  .work{
+    padding-top: 70px;
+  }
+  .content{
+    padding-top: 0px;
+  }
+  .profit .content{
+    padding-bottom: 36px;
+  }
+.work  .benefitcards h6{
+    line-height: 25px;
+  }
+  .work .tex{
+    padding: 30px 0px;
+  }
+  section.peopleabout.serviceitr{
+    padding: 70px 0px;
+  }
+  .work .content p{
+    padding-bottom: 40px;
+  }
+  /* .work{
+    padding-bottom: 70px;
+  } */
+  .tabconetent .tabconets {
+  max-width: 220px;
+  }
+  .tabconets h6{
+    font-size: 15px;
+  }
+  .tabconets p{
+    font-size: 13px;
+  }
+  .tabconets span{
+    font-size: 18px;
+  }
+  .tabconets a{
+    font-size: 15px;
+  }
+  .tablinks a{
+    font-size: 15px;
+  }
+  .tabdata.titels ul li{
+    padding-bottom: 15px;
+  }
+  .tabdata.titels h5{
+    padding-bottom: 10px;
+  }
+  section.formstab.gstpage .tabdeshing{
+    max-width: 500px;
   }
 }
 @media (max-width: 991px) {
@@ -838,6 +903,46 @@
   section.mainconatact.serviceconatc.legalservipage{
     padding-top: 60px;
   }
+  .bannerimg img{
+    max-width: 350px;
+  }
+  .gstslider .sliderconent h1{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .gstslider .sliderconent a{
+    height: 40px;
+    line-height: 40px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .gstslider .sliderconent span{
+    font-size: 25px;
+  }
+  .work .content p{
+    padding-bottom: 30px;
+  }
+  .work{
+    padding-bottom: 0px;
+  }
+  .tabconetent .tabconets{
+    max-width: 200px;
+  }
+  .formstab .tabdeshing{
+    max-width: 902px;
+  }
+  .tablinks a{
+    font-size: 14px;
+  }
+  section.formstab.dscpage .form-check{
+    margin-bottom: 10px;
+  }
+  section.formstab.dscpage .selction{
+    margin-bottom: 30px;
+  }
+  section.formstab.dscpage .tabdeshing{
+    max-width: 700px;
+  }
 }
 @media (max-width: 767px) {
   /* 15 px*/
@@ -962,7 +1067,7 @@
     font-size: 25px;
   }
   .compnay .compnayconet {
-    padding: 30px 0px;
+    padding-bottom: 30px ;
   }
   .compnay {
     padding: 40px 0px;
@@ -1182,6 +1287,49 @@
   section.mainconatact.serviceconatc.legalservipage{
     padding-top: 40px;
   }
+  .bannerimg img {
+    max-width: 266px;
+}
+.gstslider .sliderconent h5{
+  font-size: 17px;
+  padding-bottom: 10px;
+  line-height: 18px;
+}
+.gstslider .sliderconent h1{
+  font-size: 22px;
+  line-height: 25px;
+}
+.work .tex h6{
+  font-size: 15px;
+}
+.work .row{
+  flex-direction: column-reverse;
+}
+.benefitcards h6{
+  padding-top: 15px ;
+  padding-bottom: 20px;
+
+  line-height: 25px;
+  height: auto;
+
+}
+section.formstab.dscpage .selction{
+  margin-bottom: 15px;
+}
+section.formstab.dscpage .tabdeshing{
+  max-width: 500px;
+}
+section.formstab.dscpage h6{
+  font-size: 15px;
+}
+section.formstab.dscpage label{
+  font-size: 13px;
+  line-height: 15px;
+
+}
+section.formstab.dscpage .form-check{
+  margin-bottom: 8px;
+}
 }
 @media (max-width: 575px) {
   h3 {
@@ -1457,6 +1605,23 @@
 }
 section.mainconatact.serviceconatc.legalservipage{
     padding-top: 30px;
+}
+.form-check{
+  margin-bottom: 1rem !important;
+}
+.gstslider .row {
+  flex-direction: column-reverse;
+}
+.benefitcards p{
+  max-width: 100%;
+  padding: 0px 30px;
+}
+.benefitcards h6{
+  max-width: 100%;
+  padding: 10px 0px;
+}
+.benefitcards{
+  padding-bottom: 10px;
 }
 }
 @media (max-width: 428px) {

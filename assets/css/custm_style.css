@@ -1164,7 +1164,7 @@ section.postion {
 }
 
 .content {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   max-width: 907px;
   margin: 0 auto;
   text-align: center;
@@ -3088,4 +3088,38 @@ section.mainconatact.serviceconatc.custalform {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.gstslider .container{
+  position: relative;
+}
+.gstslider .swiper-button-next{
+  right: -8px;
+}
+
+.gstslider  .swiper-button-prev{
+  left: -8px;
+}
+
+.tab-content.current.start  .tabconets{
+  border: none;
+}
+.tab-content.current.start .tabconetent{
+  padding-top: 24px;
+  display: flex;
+}
+
+.tab-content.current.start .tabconetent .tabconets{
+  padding: 0px;
+
+}
+
+section.formstab.gstpage .accordions.accordionstab .accordion-item .accordion-body{
+  border-bottom: none;
+}
+
+
+/* headder margin */
+.margintop {
+  margin-top: 77px;
 }
