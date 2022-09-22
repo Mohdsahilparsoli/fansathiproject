@@ -2029,7 +2029,8 @@ section.contactform.indexconatcform {
 
 .hometab {
   padding-top: 57px;
-  background-color: #6494ff;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-bottom: 183px;
 }
 
@@ -3123,3 +3124,58 @@ section.formstab.gstpage .accordions.accordionstab .accordion-item .accordion-bo
 .margintop {
   margin-top: 77px;
 }
+
+
+.navbar-toggler{
+  border: none;
+  box-shadow: none;
+  padding: 0px;
+  box-shadow: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.inputdata span {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 31px;
+  color: #19BB33;
+  
+}
+.inputdata span sup {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+/* identical to box height, or 94% */
+
+
+color: #19BB33;
+top: -20px;
+}
+
+.inputdata span sup + a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #797171;
+  
+
+
+}
+.inputdata span + a {
+  padding: 16px 25px;
+background: #2563EB;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+margin-left: 10px;
+}
+
+.Resources.secondrespucres{
+  padding-bottom: 0px;
+}
+
