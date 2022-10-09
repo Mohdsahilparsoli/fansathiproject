@@ -571,6 +571,26 @@
       font-size: 15px;
       padding: 12px 20px;
     }
+    .compareslider ul li{
+      font-size: 11px;
+    }
+    .plans h6{
+      font-size: 14px;
+    }
+    .act h5,
+    .plans h5{
+      font-size: 12px;
+    }
+    .planstart{
+      max-width: 186px;
+    }
+    .planstart a {
+      padding: 12px;
+      border: 1px solid #2563EB;
+      font-size: 14px;
+      line-height: 20px;
+
+    }
 }
 @media (max-width: 991px) {
   .homeconentdata h3 {

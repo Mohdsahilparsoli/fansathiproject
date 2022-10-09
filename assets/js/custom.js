@@ -62,6 +62,18 @@ var swiper = new Swiper(".swiperabout", {
   });
 
 
+  var swiper = new Swiper(".mycompare", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView:1,
+    loop:true,
+    autoplay:{
+        delay:3000
+    }
+  });
+
   var swiper = new Swiper(".servieslider", {
     navigation: {
       nextEl: ".swiper-button-next",
@@ -73,6 +85,7 @@ var swiper = new Swiper(".swiperabout", {
         delay:3000
     }
   });
+
 
 
   var swiper = new Swiper(".mySwiper", {

@@ -3179,3 +3179,176 @@ margin-left: 10px;
   padding-bottom: 0px;
 }
 
+
+.compareslider ul {
+  padding: 0px;
+}
+
+ .swiper-button-next::after{
+  display: none;
+}
+
+.compareslider .swiper-button-next:after{
+  display: none;
+}
+/* 
+ .compareslider .swiper-button-prev:after{
+  content: ;
+} */
+
+.swiper-button-prev.prevdata::after{
+  display: none;
+ 
+}
+
+.act h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+  padding-left: 18px;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+
+.compareslider ul li {
+  color: green;
+  padding: 10px 0px;
+  padding-left: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #353535;
+  display: flex;
+  align-items: center;
+}
+.compareslider ul li img{
+  padding-right: 8px;
+}
+.compareslider .act ul li:nth-child(odd){
+  background: #F3F7FF;
+}
+
+
+
+.plans{
+background-color:  #FFF7EA;
+}
+
+.plans h6{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px ;
+  line-height: 30px;
+  padding-top: 12px;  
+  color: #C18315;
+  text-align: center;
+  
+  
+}
+
+.plans ul li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #605E5E;
+  justify-content: center;
+}
+.act ul li:nth-child(odd){
+   background: #F3F7FF;
+  
+}
+.act{
+margin-top: -80px;
+}
+.plans.data{
+  background-color: #ffffff;
+}
+
+.plans.data ul li:nth-child(odd){
+  background: #F3F7FF;
+}
+.act,
+.plans{
+  max-width: 230px;
+  width: 100%;
+}
+
+.compare .content p {
+padding-bottom: 0px;
+}
+.ouracts{
+  padding-top: 70px;
+}
+
+
+.plans h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 30px;
+padding: 10px 0px;
+/* identical to box height, or 214% */
+
+text-align: center;
+
+/* black color main */
+
+color: #353535;
+
+}
+
+.compare  .swiper-button-prev{
+  left: -25px;
+}
+
+.compare .swiper-button-next {
+  right: -25px;
+}
+
+.ourpackgeplan{
+  max-width: 220px;
+  width: 100%;
+}
+.planstart{
+  text-align: center;
+}
+
+
+
+
+
+.ourpackgeplan a {
+  padding: 16px;
+  border: 1px solid #2563EB;
+  border-radius: 4px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2563EB;
+  margin-top: 24px;
+  display: block;
+  margin-top: 30px;
+  width: 150px;
+  margin:30px auto ;
+}
+a.startthis{
+  background-color: #2563EB;
+  color: #ffffff;
+}
+
+.planstart.active a{
+  background: #2563EB;
+  color: #ffffff;
+ 
+}
